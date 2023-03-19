@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preload" href="Normalize.css" as="style">
+    <link rel="stylesheet" href="Normalize.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap"
+        crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="Style.css" as="style">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header class="header ">
+        <div class="contenedor contenido-header">
+            <a href="/">
+                <h1 class="titulo">Portfolio</h1>
+            </a>
+
+            <div class="menu">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2 svg-negro mobile-menu" width="70" height="70"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#252525" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <line x1="4" y1="6" x2="20" y2="6" />
+                    <line x1="4" y1="12" x2="20" y2="12" />
+                    <line x1="4" y1="18" x2="20" y2="18" />
+                </svg>
+            </div>
+
+            <nav class="navegacion-principal">
+                <a href="#sobre-mi">Sobre mi</a>
+                <a href="#conocimientos">Conocimientos</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#mensaje">Contacto</a>
+                <div class="dark-mode-boton">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon-stars svg-negro" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#252525" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+                        <path d="M17 4a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2" />
+                        <path d="M19 11h2m-1 -1v2" />
+                    </svg>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main id="sobre-mi" class="contenedor descripcion sombra">
+        <div class="imagen">
+            <img loading="lazy" width="200" height="300" src="img/1.jpg" alt="imagen">
+        </div>
+        <div class="cotenido-descripcion">
+            <h2 class="centrar-texto detalle">Matias Rosales</h2>
+            <p class="centrar-texto detalle">Estudiante autodidacta en el área de IT, específicamente en tecnologías de
+                la rama Front-end. Me considero una persona profesional y activa, interesada en adquirir conocimientos
+                en nuevas tecnologias, como también reforzar y mejorar constantemente los conocimientos ya adquiridos.
+                Con predisposición al trabajo en equipo, siendo comunicativo y atento a la hora de escuchar a los demás.
+            </p>
+        </div>
+    </main>
+    <section id="conocimientos">
+        <div class="skills">
+            <h2 class="centrar-texto">Habilidades</h2>
+            <div class="leguajes-herramientas">
+                <img loading="lazy" width="200" height="300" src="img/JSLogo.png" alt="js">
+                <img loading="lazy" width="200" height="300" src="img/HTMLLogo.png" alt="html">
+                <img loading="lazy" width="200" height="300" src="img/CSSLogo.png" alt="css">
+                <img loading="lazy" width="200" height="300" src="img/gulp.png" alt="gulp">
+                <img loading="lazy" width="200" height="300" src="img/sass.png" alt="sass">
+                <img loading="lazy" width="200" height="300" src="img/Lightroom.png" alt="Lr">
+                <img loading="lazy" width="300" height="300" src="img/Adobe_Photoshop.png" alt="Ps">
+            </div>
+        </div>
+    </section>
+    <section id="proyectos">
+        <div class="contenedor seccion">
+            <h2 class="centrar-texto">Proyectos</h2>
+            <div class="contenedor-proyectos">
+                <div class="Proyectos sombra">
+                    <img src="img/Proyecto FrontendStore.png" alt="FrontendStore">
+                    <div class="contenido-proyectos">
+                        <h3 class="centrar-texto">Frontend Store</h3>
+                        <ul class="iconos-caracteristicas">
+                            <li class="icono">
+                                <a href="https://github.com/Mattyr22/store">
+                                    <img class="img-dark-mode" width="200" height="300" loading="lazy" src="img/GitHub.png"
+                                        alt="GitHub">
+                                </a>
+                            </li>
+                            <li class="icono">
+                                <a href="https://proyecto2frontendstore01.netlify.app/">
+                                    <img class="img-dark-mode" width="200" height="300" loading="lazy" src="img/enlace.png"
+                                        alt="Enlace">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- Fin Proyecto -->
+                <div class="Proyectos sombra">
+                    <img src="img/Proyecto BlogDeCafe.png" alt="BlogDeCafe">
+                    <div class="contenido-proyectos">
+                        <h3>Blog Caffe</h3>
+                        <ul class="iconos-caracteristicas">
+                            <li class="icono">
+                                <a href="https://github.com/Mattyr22/BlogCafe">
+                                    <img class="img-dark-mode" width="200" height="300" loading="lazy" src="img/GitHub.png"
+                                        alt="GitHub">
+                                </a>
+                            </li>
+                            <li class="icono">
+                                <a href="https://blogdecafeproyecto4.netlify.app/">
+                                    <img class="img-dark-mode" width="200" height="300" loading="lazy" src="img/enlace.png"
+                                        alt="Enlace">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- Fin Proyecto -->
+                <div class="Proyectos sombra">
+                    <img src="img/Proyecto FestivalMusical.png" alt="FestivalMusical">
+                    <div class="contenido-proyectos">
+                        <h3>Festival Musical</h3>
+                        <ul class="iconos-caracteristicas">
+                            <li class="icono">
+                                <a href="https://github.com/Mattyr22/festivalMusical">
+                                    <img class="img-dark-mode" width="200" height="300" loading="lazy" src="img/GitHub.png"
+                                    alt="GitHub">
+                                </a>
+                            </li>
+                            <li class="icono">
+                                <a href="https://festivalmusical07.netlify.app/">
+                                    <img class="img-dark-mode" width="200" height="300" loading="lazy" src="img/enlace.png"
+                                    alt="Enlace">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- Fin Proyecto -->
+                <div class="Proyectos sombra">
+                    <img src="img/Proyecto BienesRaices.png" alt="BienesRaices">
+                    <div class="contenido-proyectos">
+                        <h3>Bienes Raices</h3>
+                        <ul class="iconos-caracteristicas">
+                            <li class="icono">
+                                <a href="https://github.com/Mattyr22/proyecto_BienesRaices">
+                                    <img class="img-dark-mode" width="200" height="300" loading="lazy" src="img/GitHub.png"
+                                    alt="GitHub">
+                                </a>                      
+                            </li>
+                            <li class="icono">
+                                <a href="https://proyectobienesrainces.netlify.app/">
+                                    <img class="img-dark-mode" width="200" height="300" loading="lazy" src="img/enlace.png"
+                                    alt="Enlace">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- Fin Proyecto -->
+            </div>
+        </div>
+    </section>
+    <section class="mensaje">
+        <h2>Contacto</h2>
+
+        <form class="formulario sombra" action="">
+            <fieldset>
+                <legend>
+                    Contactame llenando este formulario
+                </legend>
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input class="input-text" type="text" placeholder="Tu Nombre" id="nombre">
+                    </div>
+
+                    <div class="campo">
+                        <label for="Telefono">Telefono</label>
+                        <input class="input-text" type="number" placeholder="Tu Telefono" id="telefono">
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">Correo</label>
+                        <input class="input-text" type="email" placeholder="Tu E-Mail" id="email">
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="input-text" id="mensaje"></textarea>
+                    </div>
+                </div>
+
+                <div class="alinear-derecha flex">
+                    <input class="boton sombra" type="submit" value="Enviar" >
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="site-footer">
+            <div class="item1">
+                <h4 class="copyright">Todos los derechos Reservados 2022 &copy;</h4>
+            </div>
+            <div class="item2">
+                <a href="https://github.com/Mattyr22">
+                    <img class="img-dark-mode" loading="lazy" width="300" height="300" src="img/GitHub.png" alt="github">
+                </a>
+            </div>
+            <div class="item3">
+                <a href="https://www.linkedin.com/in/matias-rosales/">
+                    <img class="img-dark-mode" loading="lazy" width="300" height="300" src="img/linkedin.png" alt="linkedin">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="modernizr.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
